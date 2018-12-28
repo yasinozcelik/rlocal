@@ -15,3 +15,4 @@ length(housing.df$TOTAL.VALUE)  # find the length of the first column
 mean(housing.df$TOTAL.VALUE)  # find the mean of the first column
 summary(housing.df)  # find summary statistics for each column
 
+factor(x=c("High School", "College", "Masters", "Doctorate"), levels=c("High School", "College", "Masters", "Doctorate"), ordered=TRUE)
