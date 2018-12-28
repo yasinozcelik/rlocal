@@ -1,7 +1,6 @@
 # rlocal
-This is my first R code!
-Trying to push the code to GitHub.
+This is our first R code!
+December, 27, 2018
 Ela Ozcelik
 Beste Ozcelik
-test2
-test3
+Yasin Ozcelik
