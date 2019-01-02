@@ -16,3 +16,12 @@ mean(housing.df$TOTAL.VALUE)  # find the mean of the first column
 summary(housing.df)  # find summary statistics for each column
 
 factor(x=c("High School", "College", "Masters", "Doctorate"), levels=c("High School", "College", "Masters", "Doctorate"), ordered=TRUE)
+
+x <- 10:1
+y <- -4:5
+q <- c("Hockey","Football", "Baseball", "Curling", "Rugby", "Lacrosse", "Basketball", "Tennis", "Cricket", "Soccer")
+theDF <- data.frame(x,y,q)
+theDF
+theDF <- data.frame(First=x, Second=y, Third=q)
+names(theDF)
+names(theDF)[3]
