@@ -25,3 +25,4 @@ theDF
 theDF <- data.frame(First=x, Second=y, Third=q)
 names(theDF)
 names(theDF)[3]
+theDF$Third
